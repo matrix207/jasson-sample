@@ -1,2 +1,2 @@
-# jasson-sample
-sample code of using jansson
+# json-dt
+* Auto generate json file

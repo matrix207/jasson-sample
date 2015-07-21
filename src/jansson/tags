@@ -1,0 +1,461 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CLOSE_EXTERN	hashtable.h	12;"	d
+CLOSE_EXTERN	hashtable.h	14;"	d
+CLOSE_EXTERN	jansson_private.h	12;"	d
+CLOSE_EXTERN	jansson_private.h	14;"	d
+CLOSE_EXTERN	strbuffer.h	12;"	d
+CLOSE_EXTERN	strbuffer.h	14;"	d
+CLOSE_EXTERN	utf.h	12;"	d
+CLOSE_EXTERN	utf.h	14;"	d
+HASHTABLE_H	hashtable.h	9;"	d
+JANSSON_CONFIG_H	jansson_config.h	19;"	d
+JANSSON_H	jansson.h	9;"	d
+JANSSON_MAJOR_VERSION	jansson.h	25;"	d
+JANSSON_MICRO_VERSION	jansson.h	27;"	d
+JANSSON_MINOR_VERSION	jansson.h	26;"	d
+JANSSON_PRIVATE_H	jansson_private.h	9;"	d
+JANSSON_VERSION	jansson.h	30;"	d
+JANSSON_VERSION_HEX	jansson.h	34;"	d
+JSON_ARRAY	jansson.h	/^    JSON_ARRAY,$/;"	e	enum:__anon13
+JSON_COMPACT	jansson.h	233;"	d
+JSON_DISABLE_EOF_CHECK	jansson.h	222;"	d
+JSON_ENCODE_ANY	jansson.h	237;"	d
+JSON_ENSURE_ASCII	jansson.h	234;"	d
+JSON_ERROR_SOURCE_LENGTH	jansson.h	111;"	d
+JSON_ERROR_TEXT_LENGTH	jansson.h	110;"	d
+JSON_FALSE	jansson.h	/^    JSON_FALSE,$/;"	e	enum:__anon13
+JSON_INDENT	jansson.h	232;"	d
+JSON_INLINE	jansson_config.h	25;"	d
+JSON_INLINE	jansson_config.h	27;"	d
+JSON_INTEGER	jansson.h	/^    JSON_INTEGER,$/;"	e	enum:__anon13
+JSON_INTEGER_FORMAT	jansson.h	58;"	d
+JSON_INTEGER_FORMAT	jansson.h	61;"	d
+JSON_INTEGER_IS_LONG_LONG	jansson_config.h	32;"	d
+JSON_NULL	jansson.h	/^    JSON_NULL$/;"	e	enum:__anon13
+JSON_OBJECT	jansson.h	/^    JSON_OBJECT,$/;"	e	enum:__anon13
+JSON_PRESERVE_ORDER	jansson.h	236;"	d
+JSON_REAL	jansson.h	/^    JSON_REAL,$/;"	e	enum:__anon13
+JSON_REJECT_DUPLICATES	jansson.h	221;"	d
+JSON_SORT_KEYS	jansson.h	235;"	d
+JSON_STRICT	jansson.h	201;"	d
+JSON_STRING	jansson.h	/^    JSON_STRING,$/;"	e	enum:__anon13
+JSON_TRUE	jansson.h	/^    JSON_TRUE,$/;"	e	enum:__anon13
+JSON_VALIDATE_ONLY	jansson.h	200;"	d
+MAX_INTEGER_STR_LENGTH	dump.c	19;"	d	file:
+MAX_REAL_STR_LENGTH	dump.c	20;"	d	file:
+STRBUFFER_FACTOR	strbuffer.c	15;"	d	file:
+STRBUFFER_H	strbuffer.h	9;"	d
+STRBUFFER_MIN_SIZE	strbuffer.c	14;"	d	file:
+STREAM_STATE_EOF	load.c	23;"	d	file:
+STREAM_STATE_ERROR	load.c	24;"	d	file:
+STREAM_STATE_OK	load.c	22;"	d	file:
+TOKEN_EOF	load.c	27;"	d	file:
+TOKEN_FALSE	load.c	32;"	d	file:
+TOKEN_INTEGER	load.c	29;"	d	file:
+TOKEN_INVALID	load.c	26;"	d	file:
+TOKEN_NULL	load.c	33;"	d	file:
+TOKEN_REAL	load.c	30;"	d	file:
+TOKEN_STRING	load.c	28;"	d	file:
+TOKEN_TRUE	load.c	31;"	d	file:
+UTF_H	utf.h	9;"	d
+_GNU_SOURCE	dump.c	8;"	d	file:
+_GNU_SOURCE	load.c	8;"	d	file:
+_GNU_SOURCE	strbuffer.c	8;"	d	file:
+_GNU_SOURCE	value.c	8;"	d	file:
+__anon11::data	load.c	/^    const char *data;$/;"	m	struct:__anon11	file:	access:public
+__anon11::pos	load.c	/^    int pos;$/;"	m	struct:__anon11	file:	access:public
+__anon12::data	load.c	/^    const char *data;$/;"	m	struct:__anon12	file:	access:public
+__anon12::len	load.c	/^    size_t len;$/;"	m	struct:__anon12	file:	access:public
+__anon12::pos	load.c	/^    size_t pos;$/;"	m	struct:__anon12	file:	access:public
+__anon14::refcount	jansson.h	/^    size_t refcount;$/;"	m	struct:__anon14	access:public
+__anon14::type	jansson.h	/^    json_type type;$/;"	m	struct:__anon14	access:public
+__anon15::column	jansson.h	/^    int column;$/;"	m	struct:__anon15	access:public
+__anon15::line	jansson.h	/^    int line;$/;"	m	struct:__anon15	access:public
+__anon15::position	jansson.h	/^    int position;$/;"	m	struct:__anon15	access:public
+__anon15::source	jansson.h	/^    char source[JSON_ERROR_SOURCE_LENGTH];$/;"	m	struct:__anon15	access:public
+__anon15::text	jansson.h	/^    char text[JSON_ERROR_TEXT_LENGTH];$/;"	m	struct:__anon15	access:public
+__anon16::column	pack_unpack.c	/^    int column;$/;"	m	struct:__anon16	file:	access:public
+__anon16::error	pack_unpack.c	/^    json_error_t *error;$/;"	m	struct:__anon16	file:	access:public
+__anon16::flags	pack_unpack.c	/^    size_t flags;$/;"	m	struct:__anon16	file:	access:public
+__anon16::fmt	pack_unpack.c	/^    const char *fmt;$/;"	m	struct:__anon16	file:	access:public
+__anon16::line	pack_unpack.c	/^    int line;$/;"	m	struct:__anon16	file:	access:public
+__anon16::start	pack_unpack.c	/^    const char *start;$/;"	m	struct:__anon16	file:	access:public
+__anon16::token	pack_unpack.c	/^    char token;$/;"	m	struct:__anon16	file:	access:public
+__anon1::length	strbuffer.h	/^    int length;   \/* bytes used *\/$/;"	m	struct:__anon1	access:public
+__anon1::size	strbuffer.h	/^    int size;     \/* bytes allocated *\/$/;"	m	struct:__anon1	access:public
+__anon1::value	strbuffer.h	/^    char *value;$/;"	m	struct:__anon1	access:public
+__anon2::hashtable	jansson_private.h	/^    hashtable_t hashtable;$/;"	m	struct:__anon2	access:public
+__anon2::json	jansson_private.h	/^    json_t json;$/;"	m	struct:__anon2	access:public
+__anon2::serial	jansson_private.h	/^    size_t serial;$/;"	m	struct:__anon2	access:public
+__anon2::visited	jansson_private.h	/^    int visited;$/;"	m	struct:__anon2	access:public
+__anon3::entries	jansson_private.h	/^    size_t entries;$/;"	m	struct:__anon3	access:public
+__anon3::json	jansson_private.h	/^    json_t json;$/;"	m	struct:__anon3	access:public
+__anon3::size	jansson_private.h	/^    size_t size;$/;"	m	struct:__anon3	access:public
+__anon3::table	jansson_private.h	/^    json_t **table;$/;"	m	struct:__anon3	access:public
+__anon3::visited	jansson_private.h	/^    int visited;$/;"	m	struct:__anon3	access:public
+__anon4::json	jansson_private.h	/^    json_t json;$/;"	m	struct:__anon4	access:public
+__anon4::value	jansson_private.h	/^    char *value;$/;"	m	struct:__anon4	access:public
+__anon5::json	jansson_private.h	/^    json_t json;$/;"	m	struct:__anon5	access:public
+__anon5::value	jansson_private.h	/^    double value;$/;"	m	struct:__anon5	access:public
+__anon6::json	jansson_private.h	/^    json_t json;$/;"	m	struct:__anon6	access:public
+__anon6::value	jansson_private.h	/^    json_int_t value;$/;"	m	struct:__anon6	access:public
+__anon7::key	jansson_private.h	/^    char key[1];$/;"	m	struct:__anon7	access:public
+__anon7::serial	jansson_private.h	/^    size_t serial;$/;"	m	struct:__anon7	access:public
+__anon8::buffer	load.c	/^    char buffer[5];$/;"	m	struct:__anon8	file:	access:public
+__anon8::buffer_pos	load.c	/^    int buffer_pos;$/;"	m	struct:__anon8	file:	access:public
+__anon8::column	load.c	/^    int column, last_column;$/;"	m	struct:__anon8	file:	access:public
+__anon8::data	load.c	/^    void *data;$/;"	m	struct:__anon8	file:	access:public
+__anon8::get	load.c	/^    get_func get;$/;"	m	struct:__anon8	file:	access:public
+__anon8::last_column	load.c	/^    int column, last_column;$/;"	m	struct:__anon8	file:	access:public
+__anon8::line	load.c	/^    int line;$/;"	m	struct:__anon8	file:	access:public
+__anon8::position	load.c	/^    size_t position;$/;"	m	struct:__anon8	file:	access:public
+__anon8::state	load.c	/^    int state;$/;"	m	struct:__anon8	file:	access:public
+__anon9::__anon10::integer	load.c	/^        json_int_t integer;$/;"	m	union:__anon9::__anon10	file:	access:public
+__anon9::__anon10::real	load.c	/^        double real;$/;"	m	union:__anon9::__anon10	file:	access:public
+__anon9::__anon10::string	load.c	/^        char *string;$/;"	m	union:__anon9::__anon10	file:	access:public
+__anon9::saved_text	load.c	/^    strbuffer_t saved_text;$/;"	m	struct:__anon9	file:	access:public
+__anon9::stream	load.c	/^    stream_t stream;$/;"	m	struct:__anon9	file:	access:public
+__anon9::token	load.c	/^    int token;$/;"	m	struct:__anon9	file:	access:public
+__anon9::value	load.c	/^    } value;$/;"	m	struct:__anon9	typeref:union:__anon9::__anon10	file:	access:public
+array_copy	value.c	/^static void array_copy(json_t **dest, size_t dpos,$/;"	f	file:	signature:(json_t **dest, size_t dpos, json_t **src, size_t spos, size_t count)
+array_move	value.c	/^static void array_move(json_array_t *array, size_t dest,$/;"	f	file:	signature:(json_array_t *array, size_t dest, size_t src, size_t count)
+bucket_is_empty	hashtable.c	/^static JSON_INLINE int bucket_is_empty(hashtable_t *hashtable, bucket_t *bucket)$/;"	f	file:	signature:(hashtable_t *hashtable, bucket_t *bucket)
+bucket_t	hashtable.c	/^typedef struct hashtable_bucket bucket_t;$/;"	t	typeref:struct:hashtable_bucket	file:
+buckets	hashtable.h	/^    struct hashtable_bucket *buckets;$/;"	m	struct:hashtable	typeref:struct:hashtable::hashtable_bucket	access:public
+buffer	dump.c	/^    char *buffer;$/;"	m	struct:string	file:	access:public
+buffer	load.c	/^    char buffer[5];$/;"	m	struct:__anon8	file:	access:public
+buffer_data_t	load.c	/^} buffer_data_t;$/;"	t	typeref:struct:__anon12	file:
+buffer_get	load.c	/^static int buffer_get(void *data)$/;"	f	file:	signature:(void *data)
+buffer_pos	load.c	/^    int buffer_pos;$/;"	m	struct:__anon8	file:	access:public
+cmp_keys	hashtable.h	/^    key_cmp_fn cmp_keys;  \/* returns non-zero for equal keys *\/$/;"	m	struct:hashtable	access:public
+column	jansson.h	/^    int column;$/;"	m	struct:__anon15	access:public
+column	load.c	/^    int column, last_column;$/;"	m	struct:__anon8	file:	access:public
+column	pack_unpack.c	/^    int column;$/;"	m	struct:__anon16	file:	access:public
+container_of	jansson_private.h	27;"	d
+data	load.c	/^    const char *data;$/;"	m	struct:__anon11	file:	access:public
+data	load.c	/^    const char *data;$/;"	m	struct:__anon12	file:	access:public
+data	load.c	/^    void *data;$/;"	m	struct:__anon8	file:	access:public
+decode_unicode_escape	load.c	/^static int32_t decode_unicode_escape(const char *str)$/;"	f	file:	signature:(const char *str)
+do_dump	dump.c	/^static int do_dump(const json_t *json, size_t flags, int depth,$/;"	f	file:	signature:(const json_t *json, size_t flags, int depth, dump_func dump, void *data)
+do_free	memory.c	/^static json_free_t do_free = free;$/;"	v	file:
+do_malloc	memory.c	/^static json_malloc_t do_malloc = malloc;$/;"	v	file:
+dump_func	dump.c	/^typedef int (*dump_func)(const char *buffer, int size, void *data);$/;"	t	file:
+dump_indent	dump.c	/^static int dump_indent(size_t flags, int depth, int space, dump_func dump, void *data)$/;"	f	file:	signature:(size_t flags, int depth, int space, dump_func dump, void *data)
+dump_string	dump.c	/^static int dump_string(const char *str, int ascii, dump_func dump, void *data)$/;"	f	file:	signature:(const char *str, int ascii, dump_func dump, void *data)
+dump_to_file	dump.c	/^static int dump_to_file(const char *buffer, int size, void *data)$/;"	f	file:	signature:(const char *buffer, int size, void *data)
+dump_to_strbuffer	dump.c	/^static int dump_to_strbuffer(const char *buffer, int size, void *data)$/;"	f	file:	signature:(const char *buffer, int size, void *data)
+entries	jansson_private.h	/^    size_t entries;$/;"	m	struct:__anon3	access:public
+error	pack_unpack.c	/^    json_error_t *error;$/;"	m	struct:__anon16	file:	access:public
+error_set	load.c	/^static void error_set(json_error_t *error, const lex_t *lex,$/;"	f	file:	signature:(json_error_t *error, const lex_t *lex, const char *msg, ...)
+first	hashtable.h	/^    struct hashtable_list *first;$/;"	m	struct:hashtable_bucket	typeref:struct:hashtable_bucket::hashtable_list	access:public
+flags	pack_unpack.c	/^    size_t flags;$/;"	m	struct:__anon16	file:	access:public
+fmt	pack_unpack.c	/^    const char *fmt;$/;"	m	struct:__anon16	file:	access:public
+free_fn	hashtable.h	/^typedef void (*free_fn)(void *key);$/;"	t
+free_key	hashtable.h	/^    free_fn free_key;$/;"	m	struct:hashtable	access:public
+free_value	hashtable.h	/^    free_fn free_value;$/;"	m	struct:hashtable	access:public
+get	load.c	/^    get_func get;$/;"	m	struct:__anon8	file:	access:public
+get_func	load.c	/^typedef int (*get_func)(void *data);$/;"	t	file:
+hash	hashtable.h	/^    size_t hash;$/;"	m	struct:hashtable_pair	access:public
+hash_key	hashtable.h	/^    key_hash_fn hash_key;$/;"	m	struct:hashtable	access:public
+hash_key	value.c	/^static size_t hash_key(const void *ptr)$/;"	f	file:	signature:(const void *ptr)
+hashtable	hashtable.h	/^typedef struct hashtable {$/;"	s
+hashtable	jansson_private.h	/^    hashtable_t hashtable;$/;"	m	struct:__anon2	access:public
+hashtable::buckets	hashtable.h	/^    struct hashtable_bucket *buckets;$/;"	m	struct:hashtable	typeref:struct:hashtable::hashtable_bucket	access:public
+hashtable::cmp_keys	hashtable.h	/^    key_cmp_fn cmp_keys;  \/* returns non-zero for equal keys *\/$/;"	m	struct:hashtable	access:public
+hashtable::free_key	hashtable.h	/^    free_fn free_key;$/;"	m	struct:hashtable	access:public
+hashtable::free_value	hashtable.h	/^    free_fn free_value;$/;"	m	struct:hashtable	access:public
+hashtable::hash_key	hashtable.h	/^    key_hash_fn hash_key;$/;"	m	struct:hashtable	access:public
+hashtable::list	hashtable.h	/^    struct hashtable_list list;$/;"	m	struct:hashtable	typeref:struct:hashtable::hashtable_list	access:public
+hashtable::num_buckets	hashtable.h	/^    size_t num_buckets;  \/* index to primes[] *\/$/;"	m	struct:hashtable	access:public
+hashtable::size	hashtable.h	/^    size_t size;$/;"	m	struct:hashtable	access:public
+hashtable_bucket	hashtable.h	/^struct hashtable_bucket {$/;"	s
+hashtable_bucket::first	hashtable.h	/^    struct hashtable_list *first;$/;"	m	struct:hashtable_bucket	typeref:struct:hashtable_bucket::hashtable_list	access:public
+hashtable_bucket::last	hashtable.h	/^    struct hashtable_list *last;$/;"	m	struct:hashtable_bucket	typeref:struct:hashtable_bucket::hashtable_list	access:public
+hashtable_clear	hashtable.c	/^void hashtable_clear(hashtable_t *hashtable)$/;"	f	signature:(hashtable_t *hashtable)
+hashtable_close	hashtable.c	/^void hashtable_close(hashtable_t *hashtable)$/;"	f	signature:(hashtable_t *hashtable)
+hashtable_create	hashtable.c	/^hashtable_t *hashtable_create(key_hash_fn hash_key, key_cmp_fn cmp_keys,$/;"	f	signature:(key_hash_fn hash_key, key_cmp_fn cmp_keys, free_fn free_key, free_fn free_value)
+hashtable_del	hashtable.c	/^int hashtable_del(hashtable_t *hashtable, const void *key)$/;"	f	signature:(hashtable_t *hashtable, const void *key)
+hashtable_destroy	hashtable.c	/^void hashtable_destroy(hashtable_t *hashtable)$/;"	f	signature:(hashtable_t *hashtable)
+hashtable_do_clear	hashtable.c	/^static void hashtable_do_clear(hashtable_t *hashtable)$/;"	f	file:	signature:(hashtable_t *hashtable)
+hashtable_do_del	hashtable.c	/^static int hashtable_do_del(hashtable_t *hashtable,$/;"	f	file:	signature:(hashtable_t *hashtable, const void *key, size_t hash)
+hashtable_do_rehash	hashtable.c	/^static int hashtable_do_rehash(hashtable_t *hashtable)$/;"	f	file:	signature:(hashtable_t *hashtable)
+hashtable_find_pair	hashtable.c	/^static pair_t *hashtable_find_pair(hashtable_t *hashtable, bucket_t *bucket,$/;"	f	file:	signature:(hashtable_t *hashtable, bucket_t *bucket, const void *key, size_t hash)
+hashtable_get	hashtable.c	/^void *hashtable_get(hashtable_t *hashtable, const void *key)$/;"	f	signature:(hashtable_t *hashtable, const void *key)
+hashtable_init	hashtable.c	/^int hashtable_init(hashtable_t *hashtable,$/;"	f	signature:(hashtable_t *hashtable, key_hash_fn hash_key, key_cmp_fn cmp_keys, free_fn free_key, free_fn free_value)
+hashtable_iter	hashtable.c	/^void *hashtable_iter(hashtable_t *hashtable)$/;"	f	signature:(hashtable_t *hashtable)
+hashtable_iter_at	hashtable.c	/^void *hashtable_iter_at(hashtable_t *hashtable, const void *key)$/;"	f	signature:(hashtable_t *hashtable, const void *key)
+hashtable_iter_key	hashtable.c	/^void *hashtable_iter_key(void *iter)$/;"	f	signature:(void *iter)
+hashtable_iter_next	hashtable.c	/^void *hashtable_iter_next(hashtable_t *hashtable, void *iter)$/;"	f	signature:(hashtable_t *hashtable, void *iter)
+hashtable_iter_set	hashtable.c	/^void hashtable_iter_set(hashtable_t *hashtable, void *iter, void *value)$/;"	f	signature:(hashtable_t *hashtable, void *iter, void *value)
+hashtable_iter_value	hashtable.c	/^void *hashtable_iter_value(void *iter)$/;"	f	signature:(void *iter)
+hashtable_list	hashtable.h	/^struct hashtable_list {$/;"	s
+hashtable_list::next	hashtable.h	/^    struct hashtable_list *next;$/;"	m	struct:hashtable_list	typeref:struct:hashtable_list::hashtable_list	access:public
+hashtable_list::prev	hashtable.h	/^    struct hashtable_list *prev;$/;"	m	struct:hashtable_list	typeref:struct:hashtable_list::hashtable_list	access:public
+hashtable_pair	hashtable.h	/^struct hashtable_pair {$/;"	s
+hashtable_pair::hash	hashtable.h	/^    size_t hash;$/;"	m	struct:hashtable_pair	access:public
+hashtable_pair::key	hashtable.h	/^    void *key;$/;"	m	struct:hashtable_pair	access:public
+hashtable_pair::list	hashtable.h	/^    struct hashtable_list list;$/;"	m	struct:hashtable_pair	typeref:struct:hashtable_pair::hashtable_list	access:public
+hashtable_pair::value	hashtable.h	/^    void *value;$/;"	m	struct:hashtable_pair	access:public
+hashtable_set	hashtable.c	/^int hashtable_set(hashtable_t *hashtable, void *key, void *value)$/;"	f	signature:(hashtable_t *hashtable, void *key, void *value)
+hashtable_t	hashtable.h	/^} hashtable_t;$/;"	t	typeref:struct:hashtable
+insert_to_bucket	hashtable.c	/^static void insert_to_bucket(hashtable_t *hashtable, bucket_t *bucket,$/;"	f	file:	signature:(hashtable_t *hashtable, bucket_t *bucket, list_t *list)
+int32_t	utf.h	/^typedef int int32_t;$/;"	t
+integer	load.c	/^        json_int_t integer;$/;"	m	union:__anon9::__anon10	file:	access:public
+json	jansson_private.h	/^    json_t json;$/;"	m	struct:__anon2	access:public
+json	jansson_private.h	/^    json_t json;$/;"	m	struct:__anon3	access:public
+json	jansson_private.h	/^    json_t json;$/;"	m	struct:__anon4	access:public
+json	jansson_private.h	/^    json_t json;$/;"	m	struct:__anon5	access:public
+json	jansson_private.h	/^    json_t json;$/;"	m	struct:__anon6	access:public
+json_array	value.c	/^json_t *json_array(void)$/;"	f	signature:(void)
+json_array_append	jansson.h	/^int json_array_append(json_t *array, json_t *value)$/;"	f	signature:(json_t *array, json_t *value)
+json_array_append_new	value.c	/^int json_array_append_new(json_t *json, json_t *value)$/;"	f	signature:(json_t *json, json_t *value)
+json_array_clear	value.c	/^int json_array_clear(json_t *json)$/;"	f	signature:(json_t *json)
+json_array_copy	value.c	/^static json_t *json_array_copy(json_t *array)$/;"	f	file:	signature:(json_t *array)
+json_array_deep_copy	value.c	/^static json_t *json_array_deep_copy(json_t *array)$/;"	f	file:	signature:(json_t *array)
+json_array_equal	value.c	/^static int json_array_equal(json_t *array1, json_t *array2)$/;"	f	file:	signature:(json_t *array1, json_t *array2)
+json_array_extend	value.c	/^int json_array_extend(json_t *json, json_t *other_json)$/;"	f	signature:(json_t *json, json_t *other_json)
+json_array_get	value.c	/^json_t *json_array_get(const json_t *json, size_t index)$/;"	f	signature:(const json_t *json, size_t index)
+json_array_grow	value.c	/^static json_t **json_array_grow(json_array_t *array,$/;"	f	file:	signature:(json_array_t *array, size_t amount, int copy)
+json_array_insert	jansson.h	/^int json_array_insert(json_t *array, size_t index, json_t *value)$/;"	f	signature:(json_t *array, size_t index, json_t *value)
+json_array_insert_new	value.c	/^int json_array_insert_new(json_t *json, size_t index, json_t *value)$/;"	f	signature:(json_t *json, size_t index, json_t *value)
+json_array_remove	value.c	/^int json_array_remove(json_t *json, size_t index)$/;"	f	signature:(json_t *json, size_t index)
+json_array_set	jansson.h	/^int json_array_set(json_t *array, size_t index, json_t *value)$/;"	f	signature:(json_t *array, size_t index, json_t *value)
+json_array_set_new	value.c	/^int json_array_set_new(json_t *json, size_t index, json_t *value)$/;"	f	signature:(json_t *json, size_t index, json_t *value)
+json_array_size	value.c	/^size_t json_array_size(const json_t *json)$/;"	f	signature:(const json_t *json)
+json_array_t	jansson_private.h	/^} json_array_t;$/;"	t	typeref:struct:__anon3
+json_copy	value.c	/^json_t *json_copy(json_t *json)$/;"	f	signature:(json_t *json)
+json_decref	jansson.h	/^void json_decref(json_t *json)$/;"	f	signature:(json_t *json)
+json_deep_copy	value.c	/^json_t *json_deep_copy(json_t *json)$/;"	f	signature:(json_t *json)
+json_delete	value.c	/^void json_delete(json_t *json)$/;"	f	signature:(json_t *json)
+json_delete_array	value.c	/^static void json_delete_array(json_array_t *array)$/;"	f	file:	signature:(json_array_t *array)
+json_delete_integer	value.c	/^static void json_delete_integer(json_integer_t *integer)$/;"	f	file:	signature:(json_integer_t *integer)
+json_delete_object	value.c	/^static void json_delete_object(json_object_t *object)$/;"	f	file:	signature:(json_object_t *object)
+json_delete_real	value.c	/^static void json_delete_real(json_real_t *real)$/;"	f	file:	signature:(json_real_t *real)
+json_delete_string	value.c	/^static void json_delete_string(json_string_t *string)$/;"	f	file:	signature:(json_string_t *string)
+json_dump_file	dump.c	/^int json_dump_file(const json_t *json, const char *path, size_t flags)$/;"	f	signature:(const json_t *json, const char *path, size_t flags)
+json_dumpf	dump.c	/^int json_dumpf(const json_t *json, FILE *output, size_t flags)$/;"	f	signature:(const json_t *json, FILE *output, size_t flags)
+json_dumps	dump.c	/^char *json_dumps(const json_t *json, size_t flags)$/;"	f	signature:(const json_t *json, size_t flags)
+json_equal	value.c	/^int json_equal(json_t *json1, json_t *json2)$/;"	f	signature:(json_t *json1, json_t *json2)
+json_error_t	jansson.h	/^} json_error_t;$/;"	t	typeref:struct:__anon15
+json_false	value.c	/^json_t *json_false(void)$/;"	f	signature:(void)
+json_free_t	jansson.h	/^typedef void (*json_free_t)(void *);$/;"	t
+json_incref	jansson.h	/^json_t *json_incref(json_t *json)$/;"	f	signature:(json_t *json)
+json_init	value.c	/^static JSON_INLINE void json_init(json_t *json, json_type type)$/;"	f	file:	signature:(json_t *json, json_type type)
+json_int_t	jansson.h	/^typedef long json_int_t;$/;"	t
+json_int_t	jansson.h	/^typedef long long json_int_t;$/;"	t
+json_integer	value.c	/^json_t *json_integer(json_int_t value)$/;"	f	signature:(json_int_t value)
+json_integer_copy	value.c	/^static json_t *json_integer_copy(json_t *integer)$/;"	f	file:	signature:(json_t *integer)
+json_integer_equal	value.c	/^static int json_integer_equal(json_t *integer1, json_t *integer2)$/;"	f	file:	signature:(json_t *integer1, json_t *integer2)
+json_integer_set	value.c	/^int json_integer_set(json_t *json, json_int_t value)$/;"	f	signature:(json_t *json, json_int_t value)
+json_integer_t	jansson_private.h	/^} json_integer_t;$/;"	t	typeref:struct:__anon6
+json_integer_value	value.c	/^json_int_t json_integer_value(const json_t *json)$/;"	f	signature:(const json_t *json)
+json_is_array	jansson.h	67;"	d
+json_is_boolean	jansson.h	74;"	d
+json_is_false	jansson.h	73;"	d
+json_is_integer	jansson.h	69;"	d
+json_is_null	jansson.h	75;"	d
+json_is_number	jansson.h	71;"	d
+json_is_object	jansson.h	66;"	d
+json_is_real	jansson.h	70;"	d
+json_is_string	jansson.h	68;"	d
+json_is_true	jansson.h	72;"	d
+json_load_file	load.c	/^json_t *json_load_file(const char *path, size_t flags, json_error_t *error)$/;"	f	signature:(const char *path, size_t flags, json_error_t *error)
+json_loadb	load.c	/^json_t *json_loadb(const char *buffer, size_t buflen, size_t flags, json_error_t *error)$/;"	f	signature:(const char *buffer, size_t buflen, size_t flags, json_error_t *error)
+json_loadf	load.c	/^json_t *json_loadf(FILE *input, size_t flags, json_error_t *error)$/;"	f	signature:(FILE *input, size_t flags, json_error_t *error)
+json_loads	load.c	/^json_t *json_loads(const char *string, size_t flags, json_error_t *error)$/;"	f	signature:(const char *string, size_t flags, json_error_t *error)
+json_malloc_t	jansson.h	/^typedef void *(*json_malloc_t)(size_t);$/;"	t
+json_null	value.c	/^json_t *json_null(void)$/;"	f	signature:(void)
+json_number_value	value.c	/^double json_number_value(const json_t *json)$/;"	f	signature:(const json_t *json)
+json_object	value.c	/^json_t *json_object(void)$/;"	f	signature:(void)
+json_object_clear	value.c	/^int json_object_clear(json_t *json)$/;"	f	signature:(json_t *json)
+json_object_copy	value.c	/^static json_t *json_object_copy(json_t *object)$/;"	f	file:	signature:(json_t *object)
+json_object_deep_copy	value.c	/^static json_t *json_object_deep_copy(json_t *object)$/;"	f	file:	signature:(json_t *object)
+json_object_del	value.c	/^int json_object_del(json_t *json, const char *key)$/;"	f	signature:(json_t *json, const char *key)
+json_object_equal	value.c	/^static int json_object_equal(json_t *object1, json_t *object2)$/;"	f	file:	signature:(json_t *object1, json_t *object2)
+json_object_get	value.c	/^json_t *json_object_get(const json_t *json, const char *key)$/;"	f	signature:(const json_t *json, const char *key)
+json_object_iter	value.c	/^void *json_object_iter(json_t *json)$/;"	f	signature:(json_t *json)
+json_object_iter_at	value.c	/^void *json_object_iter_at(json_t *json, const char *key)$/;"	f	signature:(json_t *json, const char *key)
+json_object_iter_key	value.c	/^const char *json_object_iter_key(void *iter)$/;"	f	signature:(void *iter)
+json_object_iter_next	value.c	/^void *json_object_iter_next(json_t *json, void *iter)$/;"	f	signature:(json_t *json, void *iter)
+json_object_iter_set	jansson.h	/^int json_object_iter_set(json_t *object, void *iter, json_t *value)$/;"	f	signature:(json_t *object, void *iter, json_t *value)
+json_object_iter_set_new	value.c	/^int json_object_iter_set_new(json_t *json, void *iter, json_t *value)$/;"	f	signature:(json_t *json, void *iter, json_t *value)
+json_object_iter_value	value.c	/^json_t *json_object_iter_value(void *iter)$/;"	f	signature:(void *iter)
+json_object_set	jansson.h	/^int json_object_set(json_t *object, const char *key, json_t *value)$/;"	f	signature:(json_t *object, const char *key, json_t *value)
+json_object_set_new	value.c	/^int json_object_set_new(json_t *json, const char *key, json_t *value)$/;"	f	signature:(json_t *json, const char *key, json_t *value)
+json_object_set_new_nocheck	value.c	/^int json_object_set_new_nocheck(json_t *json, const char *key, json_t *value)$/;"	f	signature:(json_t *json, const char *key, json_t *value)
+json_object_set_nocheck	jansson.h	/^int json_object_set_nocheck(json_t *object, const char *key, json_t *value)$/;"	f	signature:(json_t *object, const char *key, json_t *value)
+json_object_size	value.c	/^size_t json_object_size(const json_t *json)$/;"	f	signature:(const json_t *json)
+json_object_t	jansson_private.h	/^} json_object_t;$/;"	t	typeref:struct:__anon2
+json_object_update	value.c	/^int json_object_update(json_t *object, json_t *other)$/;"	f	signature:(json_t *object, json_t *other)
+json_pack	pack_unpack.c	/^json_t *json_pack(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+json_pack_ex	pack_unpack.c	/^json_t *json_pack_ex(json_error_t *error, size_t flags, const char *fmt, ...)$/;"	f	signature:(json_error_t *error, size_t flags, const char *fmt, ...)
+json_real	value.c	/^json_t *json_real(double value)$/;"	f	signature:(double value)
+json_real_copy	value.c	/^static json_t *json_real_copy(json_t *real)$/;"	f	file:	signature:(json_t *real)
+json_real_equal	value.c	/^static int json_real_equal(json_t *real1, json_t *real2)$/;"	f	file:	signature:(json_t *real1, json_t *real2)
+json_real_set	value.c	/^int json_real_set(json_t *json, double value)$/;"	f	signature:(json_t *json, double value)
+json_real_t	jansson_private.h	/^} json_real_t;$/;"	t	typeref:struct:__anon5
+json_real_value	value.c	/^double json_real_value(const json_t *json)$/;"	f	signature:(const json_t *json)
+json_set_alloc_funcs	memory.c	/^void json_set_alloc_funcs(json_malloc_t malloc_fn, json_free_t free_fn)$/;"	f	signature:(json_malloc_t malloc_fn, json_free_t free_fn)
+json_string	value.c	/^json_t *json_string(const char *value)$/;"	f	signature:(const char *value)
+json_string_copy	value.c	/^static json_t *json_string_copy(json_t *string)$/;"	f	file:	signature:(json_t *string)
+json_string_equal	value.c	/^static int json_string_equal(json_t *string1, json_t *string2)$/;"	f	file:	signature:(json_t *string1, json_t *string2)
+json_string_nocheck	value.c	/^json_t *json_string_nocheck(const char *value)$/;"	f	signature:(const char *value)
+json_string_set	value.c	/^int json_string_set(json_t *json, const char *value)$/;"	f	signature:(json_t *json, const char *value)
+json_string_set_nocheck	value.c	/^int json_string_set_nocheck(json_t *json, const char *value)$/;"	f	signature:(json_t *json, const char *value)
+json_string_t	jansson_private.h	/^} json_string_t;$/;"	t	typeref:struct:__anon4
+json_string_value	value.c	/^const char *json_string_value(const json_t *json)$/;"	f	signature:(const json_t *json)
+json_strtoint	load.c	441;"	d	file:
+json_strtoint	load.c	443;"	d	file:
+json_strtoint	load.c	446;"	d	file:
+json_t	jansson.h	/^} json_t;$/;"	t	typeref:struct:__anon14
+json_to_array	jansson_private.h	76;"	d
+json_to_integer	jansson_private.h	79;"	d
+json_to_object	jansson_private.h	75;"	d
+json_to_real	jansson_private.h	78;"	d
+json_to_string	jansson_private.h	77;"	d
+json_true	value.c	/^json_t *json_true(void)$/;"	f	signature:(void)
+json_type	jansson.h	/^} json_type;$/;"	t	typeref:enum:__anon13
+json_typeof	jansson.h	65;"	d
+json_unpack	pack_unpack.c	/^int json_unpack(json_t *root, const char *fmt, ...)$/;"	f	signature:(json_t *root, const char *fmt, ...)
+json_unpack_ex	pack_unpack.c	/^int json_unpack_ex(json_t *root, json_error_t *error, size_t flags, const char *fmt, ...)$/;"	f	signature:(json_t *root, json_error_t *error, size_t flags, const char *fmt, ...)
+json_vpack_ex	pack_unpack.c	/^json_t *json_vpack_ex(json_error_t *error, size_t flags,$/;"	f	signature:(json_error_t *error, size_t flags, const char *fmt, va_list ap)
+json_vunpack_ex	pack_unpack.c	/^int json_vunpack_ex(json_t *root, json_error_t *error, size_t flags,$/;"	f	signature:(json_t *root, json_error_t *error, size_t flags, const char *fmt, va_list ap)
+jsonp_error_init	error.c	/^void jsonp_error_init(json_error_t *error, const char *source)$/;"	f	signature:(json_error_t *error, const char *source)
+jsonp_error_set	error.c	/^void jsonp_error_set(json_error_t *error, int line, int column,$/;"	f	signature:(json_error_t *error, int line, int column, size_t position, const char *msg, ...)
+jsonp_error_set_source	error.c	/^void jsonp_error_set_source(json_error_t *error, const char *source)$/;"	f	signature:(json_error_t *error, const char *source)
+jsonp_error_vset	error.c	/^void jsonp_error_vset(json_error_t *error, int line, int column,$/;"	f	signature:(json_error_t *error, int line, int column, size_t position, const char *msg, va_list ap)
+jsonp_free	memory.c	/^void jsonp_free(void *ptr)$/;"	f	signature:(void *ptr)
+jsonp_hash_str	value.c	/^size_t jsonp_hash_str(const void *ptr)$/;"	f	signature:(const void *ptr)
+jsonp_malloc	memory.c	/^void *jsonp_malloc(size_t size)$/;"	f	signature:(size_t size)
+jsonp_object_iter_fullkey	value.c	/^const object_key_t *jsonp_object_iter_fullkey(void *iter)$/;"	f	signature:(void *iter)
+jsonp_str_equal	value.c	/^int jsonp_str_equal(const void *ptr1, const void *ptr2)$/;"	f	signature:(const void *ptr1, const void *ptr2)
+jsonp_strdup	memory.c	/^char *jsonp_strdup(const char *str)$/;"	f	signature:(const char *str)
+key	hashtable.h	/^    void *key;$/;"	m	struct:hashtable_pair	access:public
+key	jansson_private.h	/^    char key[1];$/;"	m	struct:__anon7	access:public
+key_cmp_fn	hashtable.h	/^typedef int (*key_cmp_fn)(const void *key1, const void *key2);$/;"	t
+key_equal	value.c	/^static int key_equal(const void *ptr1, const void *ptr2)$/;"	f	file:	signature:(const void *ptr1, const void *ptr2)
+key_hash_fn	hashtable.h	/^typedef size_t (*key_hash_fn)(const void *key);$/;"	t
+last	hashtable.h	/^    struct hashtable_list *last;$/;"	m	struct:hashtable_bucket	typeref:struct:hashtable_bucket::hashtable_list	access:public
+last_column	load.c	/^    int column, last_column;$/;"	m	struct:__anon8	file:	access:public
+len	load.c	/^    size_t len;$/;"	m	struct:__anon12	file:	access:public
+length	dump.c	/^    int length;$/;"	m	struct:string	file:	access:public
+length	strbuffer.h	/^    int length;   \/* bytes used *\/$/;"	m	struct:__anon1	access:public
+lex_close	load.c	/^static void lex_close(lex_t *lex)$/;"	f	file:	signature:(lex_t *lex)
+lex_get	load.c	/^static int lex_get(lex_t *lex, json_error_t *error)$/;"	f	file:	signature:(lex_t *lex, json_error_t *error)
+lex_get_save	load.c	/^static int lex_get_save(lex_t *lex, json_error_t *error)$/;"	f	file:	signature:(lex_t *lex, json_error_t *error)
+lex_init	load.c	/^static int lex_init(lex_t *lex, get_func get, void *data)$/;"	f	file:	signature:(lex_t *lex, get_func get, void *data)
+lex_save	load.c	/^static void lex_save(lex_t *lex, int c)$/;"	f	file:	signature:(lex_t *lex, int c)
+lex_save_cached	load.c	/^static void lex_save_cached(lex_t *lex)$/;"	f	file:	signature:(lex_t *lex)
+lex_scan	load.c	/^static int lex_scan(lex_t *lex, json_error_t *error)$/;"	f	file:	signature:(lex_t *lex, json_error_t *error)
+lex_scan_number	load.c	/^static int lex_scan_number(lex_t *lex, int c, json_error_t *error)$/;"	f	file:	signature:(lex_t *lex, int c, json_error_t *error)
+lex_scan_string	load.c	/^static void lex_scan_string(lex_t *lex, json_error_t *error)$/;"	f	file:	signature:(lex_t *lex, json_error_t *error)
+lex_steal_string	load.c	/^static char *lex_steal_string(lex_t *lex)$/;"	f	file:	signature:(lex_t *lex)
+lex_t	load.c	/^} lex_t;$/;"	t	typeref:struct:__anon9	file:
+lex_unget	load.c	/^static void lex_unget(lex_t *lex, int c)$/;"	f	file:	signature:(lex_t *lex, int c)
+lex_unget_unsave	load.c	/^static void lex_unget_unsave(lex_t *lex, int c)$/;"	f	file:	signature:(lex_t *lex, int c)
+line	jansson.h	/^    int line;$/;"	m	struct:__anon15	access:public
+line	load.c	/^    int line;$/;"	m	struct:__anon8	file:	access:public
+line	pack_unpack.c	/^    int line;$/;"	m	struct:__anon16	file:	access:public
+list	hashtable.h	/^    struct hashtable_list list;$/;"	m	struct:hashtable	typeref:struct:hashtable::hashtable_list	access:public
+list	hashtable.h	/^    struct hashtable_list list;$/;"	m	struct:hashtable_pair	typeref:struct:hashtable_pair::hashtable_list	access:public
+list_init	hashtable.c	/^static JSON_INLINE void list_init(list_t *list)$/;"	f	file:	signature:(list_t *list)
+list_insert	hashtable.c	/^static JSON_INLINE void list_insert(list_t *list, list_t *node)$/;"	f	file:	signature:(list_t *list, list_t *node)
+list_remove	hashtable.c	/^static JSON_INLINE void list_remove(list_t *list)$/;"	f	file:	signature:(list_t *list)
+list_t	hashtable.c	/^typedef struct hashtable_list list_t;$/;"	t	typeref:struct:hashtable_list	file:
+list_to_pair	hashtable.c	17;"	d	file:
+max	jansson_private.h	32;"	d
+next	hashtable.h	/^    struct hashtable_list *next;$/;"	m	struct:hashtable_list	typeref:struct:hashtable_list::hashtable_list	access:public
+next_token	pack_unpack.c	/^static void next_token(scanner_t *s)$/;"	f	file:	signature:(scanner_t *s)
+num_buckets	hashtable.c	/^static JSON_INLINE size_t num_buckets(hashtable_t *hashtable)$/;"	f	file:	signature:(hashtable_t *hashtable)
+num_buckets	hashtable.h	/^    size_t num_buckets;  \/* index to primes[] *\/$/;"	m	struct:hashtable	access:public
+num_primes	hashtable.c	/^static const size_t num_primes = sizeof(primes) \/ sizeof(size_t);$/;"	v	file:
+object_key_compare_keys	dump.c	/^static int object_key_compare_keys(const void *key1, const void *key2)$/;"	f	file:	signature:(const void *key1, const void *key2)
+object_key_compare_serials	dump.c	/^static int object_key_compare_serials(const void *key1, const void *key2)$/;"	f	file:	signature:(const void *key1, const void *key2)
+object_key_t	jansson_private.h	/^} object_key_t;$/;"	t	typeref:struct:__anon7
+pack	pack_unpack.c	/^static json_t *pack(scanner_t *s, va_list *ap)$/;"	f	file:	signature:(scanner_t *s, va_list *ap)
+pack_array	pack_unpack.c	/^static json_t *pack_array(scanner_t *s, va_list *ap)$/;"	f	file:	signature:(scanner_t *s, va_list *ap)
+pack_object	pack_unpack.c	/^static json_t *pack_object(scanner_t *s, va_list *ap)$/;"	f	file:	signature:(scanner_t *s, va_list *ap)
+pair_t	hashtable.c	/^typedef struct hashtable_pair pair_t;$/;"	t	typeref:struct:hashtable_pair	file:
+parse_array	load.c	/^static json_t *parse_array(lex_t *lex, size_t flags, json_error_t *error)$/;"	f	file:	signature:(lex_t *lex, size_t flags, json_error_t *error)
+parse_json	load.c	/^static json_t *parse_json(lex_t *lex, size_t flags, json_error_t *error)$/;"	f	file:	signature:(lex_t *lex, size_t flags, json_error_t *error)
+parse_object	load.c	/^static json_t *parse_object(lex_t *lex, size_t flags, json_error_t *error)$/;"	f	file:	signature:(lex_t *lex, size_t flags, json_error_t *error)
+parse_value	load.c	/^static json_t *parse_value(lex_t *lex, size_t flags, json_error_t *error)$/;"	f	file:	signature:(lex_t *lex, size_t flags, json_error_t *error)
+pos	load.c	/^    int pos;$/;"	m	struct:__anon11	file:	access:public
+pos	load.c	/^    size_t pos;$/;"	m	struct:__anon12	file:	access:public
+position	jansson.h	/^    int position;$/;"	m	struct:__anon15	access:public
+position	load.c	/^    size_t position;$/;"	m	struct:__anon8	file:	access:public
+prev	hashtable.h	/^    struct hashtable_list *prev;$/;"	m	struct:hashtable_list	typeref:struct:hashtable_list::hashtable_list	access:public
+primes	hashtable.c	/^static size_t primes[] = {$/;"	v	file:
+real	load.c	/^        double real;$/;"	m	union:__anon9::__anon10	file:	access:public
+refcount	jansson.h	/^    size_t refcount;$/;"	m	struct:__anon14	access:public
+saved_text	load.c	/^    strbuffer_t saved_text;$/;"	m	struct:__anon9	file:	access:public
+scanner_init	pack_unpack.c	/^static void scanner_init(scanner_t *s, json_error_t *error,$/;"	f	file:	signature:(scanner_t *s, json_error_t *error, size_t flags, const char *fmt)
+scanner_t	pack_unpack.c	/^} scanner_t;$/;"	t	typeref:struct:__anon16	file:
+serial	jansson_private.h	/^    size_t serial;$/;"	m	struct:__anon2	access:public
+serial	jansson_private.h	/^    size_t serial;$/;"	m	struct:__anon7	access:public
+set_error	pack_unpack.c	/^static void set_error(scanner_t *s, const char *source, const char *fmt, ...)$/;"	f	file:	signature:(scanner_t *s, const char *source, const char *fmt, ...)
+size	dump.c	/^    int size;$/;"	m	struct:string	file:	access:public
+size	hashtable.h	/^    size_t size;$/;"	m	struct:hashtable	access:public
+size	jansson_private.h	/^    size_t size;$/;"	m	struct:__anon3	access:public
+size	strbuffer.h	/^    int size;     \/* bytes allocated *\/$/;"	m	struct:__anon1	access:public
+snprintf	jansson_private.h	24;"	d
+source	jansson.h	/^    char source[JSON_ERROR_SOURCE_LENGTH];$/;"	m	struct:__anon15	access:public
+start	pack_unpack.c	/^    const char *start;$/;"	m	struct:__anon16	file:	access:public
+state	load.c	/^    int state;$/;"	m	struct:__anon8	file:	access:public
+strbuffer_append	strbuffer.c	/^int strbuffer_append(strbuffer_t *strbuff, const char *string)$/;"	f	signature:(strbuffer_t *strbuff, const char *string)
+strbuffer_append_byte	strbuffer.c	/^int strbuffer_append_byte(strbuffer_t *strbuff, char byte)$/;"	f	signature:(strbuffer_t *strbuff, char byte)
+strbuffer_append_bytes	strbuffer.c	/^int strbuffer_append_bytes(strbuffer_t *strbuff, const char *data, int size)$/;"	f	signature:(strbuffer_t *strbuff, const char *data, int size)
+strbuffer_clear	strbuffer.c	/^void strbuffer_clear(strbuffer_t *strbuff)$/;"	f	signature:(strbuffer_t *strbuff)
+strbuffer_close	strbuffer.c	/^void strbuffer_close(strbuffer_t *strbuff)$/;"	f	signature:(strbuffer_t *strbuff)
+strbuffer_init	strbuffer.c	/^int strbuffer_init(strbuffer_t *strbuff)$/;"	f	signature:(strbuffer_t *strbuff)
+strbuffer_pop	strbuffer.c	/^char strbuffer_pop(strbuffer_t *strbuff)$/;"	f	signature:(strbuffer_t *strbuff)
+strbuffer_steal_value	strbuffer.c	/^char *strbuffer_steal_value(strbuffer_t *strbuff)$/;"	f	signature:(strbuffer_t *strbuff)
+strbuffer_t	strbuffer.h	/^} strbuffer_t;$/;"	t	typeref:struct:__anon1
+strbuffer_value	strbuffer.c	/^const char *strbuffer_value(const strbuffer_t *strbuff)$/;"	f	signature:(const strbuffer_t *strbuff)
+stream	load.c	/^    stream_t stream;$/;"	m	struct:__anon9	file:	access:public
+stream_get	load.c	/^static int stream_get(stream_t *stream, json_error_t *error)$/;"	f	file:	signature:(stream_t *stream, json_error_t *error)
+stream_init	load.c	/^stream_init(stream_t *stream, get_func get, void *data)$/;"	f	file:	signature:(stream_t *stream, get_func get, void *data)
+stream_t	load.c	/^} stream_t;$/;"	t	typeref:struct:__anon8	file:
+stream_to_lex	load.c	62;"	d	file:
+stream_unget	load.c	/^static void stream_unget(stream_t *stream, int c)$/;"	f	file:	signature:(stream_t *stream, int c)
+string	dump.c	/^struct string$/;"	s	file:
+string	load.c	/^        char *string;$/;"	m	union:__anon9::__anon10	file:	access:public
+string::buffer	dump.c	/^    char *buffer;$/;"	m	struct:string	file:	access:public
+string::length	dump.c	/^    int length;$/;"	m	struct:string	file:	access:public
+string::size	dump.c	/^    int size;$/;"	m	struct:string	file:	access:public
+string_data_t	load.c	/^} string_data_t;$/;"	t	typeref:struct:__anon11	file:
+string_get	load.c	/^static int string_get(void *data)$/;"	f	file:	signature:(void *data)
+string_to_key	value.c	55;"	d	file:
+table	jansson_private.h	/^    json_t **table;$/;"	m	struct:__anon3	access:public
+text	jansson.h	/^    char text[JSON_ERROR_TEXT_LENGTH];$/;"	m	struct:__anon15	access:public
+token	load.c	/^    int token;$/;"	m	struct:__anon9	file:	access:public
+token	pack_unpack.c	/^    char token;$/;"	m	struct:__anon16	file:	access:public
+type	jansson.h	/^    json_type type;$/;"	m	struct:__anon14	access:public
+type_name	pack_unpack.c	35;"	d	file:
+type_names	pack_unpack.c	/^static const char *type_names[] = {$/;"	v	file:
+unpack	pack_unpack.c	/^static int unpack(scanner_t *s, json_t *root, va_list *ap)$/;"	f	file:	signature:(scanner_t *s, json_t *root, va_list *ap)
+unpack_array	pack_unpack.c	/^static int unpack_array(scanner_t *s, json_t *root, va_list *ap)$/;"	f	file:	signature:(scanner_t *s, json_t *root, va_list *ap)
+unpack_object	pack_unpack.c	/^static int unpack_object(scanner_t *s, json_t *root, va_list *ap)$/;"	f	file:	signature:(scanner_t *s, json_t *root, va_list *ap)
+unpack_value_starters	pack_unpack.c	/^static const char *unpack_value_starters = "{[siIbfFOon";$/;"	v	file:
+utf8_check_first	utf.c	/^int utf8_check_first(char byte)$/;"	f	signature:(char byte)
+utf8_check_full	utf.c	/^int utf8_check_full(const char *buffer, int size, int32_t *codepoint)$/;"	f	signature:(const char *buffer, int size, int32_t *codepoint)
+utf8_check_string	utf.c	/^int utf8_check_string(const char *string, int length)$/;"	f	signature:(const char *string, int length)
+utf8_encode	utf.c	/^int utf8_encode(int32_t codepoint, char *buffer, int *size)$/;"	f	signature:(int32_t codepoint, char *buffer, int *size)
+utf8_iterate	utf.c	/^const char *utf8_iterate(const char *buffer, int32_t *codepoint)$/;"	f	signature:(const char *buffer, int32_t *codepoint)
+va_copy	jansson_private.h	39;"	d
+va_copy	jansson_private.h	41;"	d
+value	hashtable.h	/^    void *value;$/;"	m	struct:hashtable_pair	access:public
+value	jansson_private.h	/^    char *value;$/;"	m	struct:__anon4	access:public
+value	jansson_private.h	/^    double value;$/;"	m	struct:__anon5	access:public
+value	jansson_private.h	/^    json_int_t value;$/;"	m	struct:__anon6	access:public
+value	load.c	/^    } value;$/;"	m	struct:__anon9	typeref:union:__anon9::__anon10	file:	access:public
+value	strbuffer.h	/^    char *value;$/;"	m	struct:__anon1	access:public
+value_decref	value.c	/^static void value_decref(void *value)$/;"	f	file:	signature:(void *value)
+visited	jansson_private.h	/^    int visited;$/;"	m	struct:__anon2	access:public
+visited	jansson_private.h	/^    int visited;$/;"	m	struct:__anon3	access:public
+whitespace	dump.c	/^static char whitespace[] = "                                ";$/;"	v	file:
